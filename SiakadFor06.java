@@ -26,11 +26,15 @@ public class SiakadFor06 {
 
             }
         
-            System.out.println("Nilai tertinggi saat ini: " + tertinggi);
+           
+        }
+        
+         System.out.println("Nilai tertinggi saat ini: " + tertinggi);
             System.out.println("Nilai terendah saat ini: " + terendah);
             System.out.println("Jumlah mahasiswa yang lulus: " + lulus);
             System.out.println("Jumlah mahasiswa yang tidak lulus: " + tidakLulus);
 
+        
     }
 }
 
