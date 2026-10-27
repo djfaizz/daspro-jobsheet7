@@ -19,12 +19,17 @@ public class SiakadFor06 {
                 terendah = nilai;
             }
 
+            if (nilai >= 60) {
+                lulus++;
+            }else {
+                tidakLulus++;
+
             }
         
-
-
             System.out.println("Nilai tertinggi saat ini: " + tertinggi);
             System.out.println("Nilai terendah saat ini: " + terendah);
+            System.out.println("Jumlah mahasiswa yang lulus: " + lulus);
+            System.out.println("Jumlah mahasiswa yang tidak lulus: " + tidakLulus);
 
     }
 }
